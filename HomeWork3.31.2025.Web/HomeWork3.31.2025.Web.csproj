@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>HomeWork3._31._2025.Web</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HomeWork3.31.2025.Data\HomeWork3.31.2025.Data.csproj" />
+  </ItemGroup>
+
+</Project>
