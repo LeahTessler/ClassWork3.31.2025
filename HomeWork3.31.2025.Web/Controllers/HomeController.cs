@@ -12,6 +12,9 @@ namespace HomeWork3._31._2025.Web.Controllers
         private string _connectionString = @"Data Source=.\sqlexpress;Initial Catalog=Ads;Integrated Security=true;TrustServerCertificate=yes;";
 
         public IActionResult Index()
+
+
+
         {
             var am = new AdManager(_connectionString);
             var avm = new AdViewModel();
